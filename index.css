@@ -1,0 +1,18 @@
+#root {
+  padding-left: 250px;
+  padding-right: 250px;
+  max-width: 900px;
+  display: flex;
+}
+
+.side-bar {
+  max-width: 300px;
+  order: 1;
+}
+
+.main-body {
+  max-width: 600px;
+  order: 2;
+}
+
+/*# sourceMappingURL=index.css.map */
