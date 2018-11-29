@@ -1,5 +1,5 @@
 module.exports = {
-  summary: "Professional with management and training experience with a passion for continued learning. Continuing my development in full-stack web development to apply my experience in customer service, sales and training to improve the effectiveness and efficiency of today's workplaces.",
+  summary: "I am a Web developer with knowledge and experience in management, training, and development. My passion is to find useful ways with only the necessary data and turn it into a useable product that helps others improve their productivity. My experience ties strongly with working in team environments, often involving teams across multiple departments requiring cross-departmental communication and teamwork. With my experience into the challenges that operational workforces face and how organizations think strategically to review their progress, I strive to develop tools to simply their work through user-friendly applications that are intuitive and simple to use.",
 
   contactInfo: {
     name: "Elbert S. Bae",
@@ -21,7 +21,11 @@ module.exports = {
     'jQuery',
     'HTML/CSS/SCSS',
     'SQL',
-    'ReactJS'
+    'ReactJS',
+    'React',
+    'REST',
+    'Ajax',
+    'WebSockets'
   ],
 
   otherSkills: [
@@ -38,14 +42,21 @@ module.exports = {
       company: "YMCA of Greater Vancouver",
       address: "282 West 49th Avenue, Vancouver, BC",
       date: "February 2017 - October 2018",
-      responsibilities: "Tasked with the on-going improvement of member experience through training, data analysis, and community engagement with local businesses to improve retention and sales statistics. Growth of membership satisfaction rating from on average of 40-45 Net Promoter Score to consistently reaching 85-90 by September 2018 (Happy-or-Not Analysis). Created a customized Excel spreadsheet to improve scheduling efficiency which automatically tracks gaps in scheduled hours, overscheduling, individually catered sales goals, and cost information as monthly schedules are created."
+      responsibilities: "Tasked with the on-going improvement of member experience through training, data analysis, and community engagement with local businesses to improve retention and sales statistics. Growth of membership satisfaction rating from on average of 65-70% satisfaction rating to consistently reaching 85-90% by September 2018. Continued to work on a customized Excel spreadsheet to improve scheduling efficiency which included features that generates individually catered sales goals (based on number of hours and time of day scheduled) and budget tracking as monthly schedules are created."
     },
     {
-      title: "Service & Sales Trainer",
+      title: "Team Leader",
+      company: "YMCA of Greater Vancouver",
+      address: "955 Burrard St, Vancouver, BC",
+      date: "June 2016 - February 2017",
+      responsibilities: "Responsible for the on-going training and development of the front-line team primarily around service, conflict resolution, and sales as well as resolve escalated member concerns. During this time, I developed two processes to handle the on-going review of the team's work with the customer database and sales calls to monitor proper data entry and work process. As a side project, created an Excel tool for the manager which generated line graphs of the scheduled shifts to easily identify gaps in scheduled hours or overscheduling."
+    },
+    {
+      title: "Self-Employed as Service & Sales Trainer",
       company: "Self-Employed (Contract basis)",
       address: "Lower Mainland",
       date: "February 2018 - Current",
-      responsibilities: "Self-employment as a trainer specializing in customer service and sales roles with a passion for teaching others problem solving strategies, adapting to the situation, and soft skills necessary to navigate through difficult front facing roles."
+      responsibilities: "As a trainer specializing in customer service and sales roles, I display effective presentation and coaching skills while providing training around core skills the participants can use to succeed in their future roles working in service, sales, and team environments. Workshops include training and guidance around problem solving and sales strategies and soft skills such as: effective communication, professionalism, and working with teams with the end goal for participants to be comfortable applying these skills while adapting to new situations."
     }],
 
   gitHubProjects: [
