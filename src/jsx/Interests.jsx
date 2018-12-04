@@ -8,7 +8,7 @@ class Interests extends React.Component {
     })
     return (
       <div>
-         <h2>Interests</h2>
+         <h3>Interests</h3>
           <ul>
             {myInterests}
           </ul>

@@ -6,18 +6,18 @@ class Projects extends React.Component {
     const projects = gitHubProjects.map((project) => {
       return (
         <div className="exp-bar">
-          <a href={project.link}><h3>{project.title}</h3></a>
+          <a href={project.link}><h4>{project.title}</h4></a>
           <div className="exp-footer">
             <p><small><i>{project.date}</i></small></p>
             <p>{project.description}</p>
-            <p><i>Stack: {project.stack}</i></p>
+            <p className="main-p"><i>Stack: {project.stack}</i></p>
           </div>
         </div>
       )
     })
     return (
       <div>
-        <h2>Projects</h2>
+        <h3>Projects</h3><hr className="hr-projects"/>
         {projects}
       </div>
     )

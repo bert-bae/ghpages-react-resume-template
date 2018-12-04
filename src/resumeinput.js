@@ -7,6 +7,7 @@ module.exports = {
     email: "elbert.bae@gmail.com",
     github: "github.com/bert-bae",
     linkedin: "linkedin.com/in/bert92",
+    imgPath: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV2WniLsEKOfMobit0LyCMxvq8SzFBzwQTwcpFqq7YsHcWylOK2A",
   },
 
   education: {
@@ -24,6 +25,8 @@ module.exports = {
     'ReactJS',
     'React',
     'REST',
+    'Ruby',
+    'Rails',
     'Ajax',
     'WebSockets'
   ],
@@ -31,9 +34,9 @@ module.exports = {
   otherSkills: [
     'Management',
     'Problem Solving',
-    'Conflict Management',
-    'Training and development',
-    'Data analysis'
+    'Data analysis',
+    'Training & Development',
+    'Sales',
   ],
 
   workexp: [
@@ -61,11 +64,20 @@ module.exports = {
 
   gitHubProjects: [
     {
+      title: "Chatty App",
+      link: "https://github.com/bert-bae/chattyapp",
+      stack: "React, WebSockets, NodeJS, JavaScript, HTML/CSS/SASS",
+      description: "Slack clone created using React and WebSockets with implementation of domain specific language logic between the server and client side codes.",
+      date: "December 2018 - Current",
+      imgSrc: "https://github.com/bert-bae/chattyapp/raw/master/src/imgs/test3.png?raw=true"
+    },
+    {
       title: "Tweeter",
       link: "https://github.com/bert-bae/tweeterclone",
       stack: "NodeJS, JavaScript, HTML/CSS/SCSS, Express, Ajax",
       description: "Twitter clone, styled with minimal functionality created while learning functional programming.",
       date: "November 2018 - Current",
+      imgSrc: "https://github.com/bert-bae/tweeterStyle/raw/master/screenshots/main.png"
     },
     {
       title: "RedSquare",
@@ -73,6 +85,7 @@ module.exports = {
       stack: "NodeJS, JavaScript, HTML/CSS/SCSS, Express, Ajax, EJS",
       description: "Twitter clone, styled with minimal functionality created while learning functional programming.",
       date: "November 2018 - Current",
+      imgSrc: "https://github.com/bert-bae/outdoodle/raw/master/public/img/img2.png?raw=true",
     }],
 
   interests: [

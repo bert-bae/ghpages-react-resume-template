@@ -5,8 +5,8 @@ class Summary extends React.Component {
     const summary = this.props.summary;
     return (
       <div>
-        <h2>Summary</h2>
-        <p>{summary}</p>
+        <h3>Summary</h3><hr className="hr-summary"/>
+        <p className="main-p">{summary}</p>
       </div>
     )
   }

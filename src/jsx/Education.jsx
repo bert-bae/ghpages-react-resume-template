@@ -5,10 +5,10 @@ class Education extends React.Component {
     const education = this.props.education;
     return (
       <div className="exp-bar">
-        <h2>Education</h2>
-        <h3>{education.school}</h3>
+        <h3>Education</h3><hr className="hr-ed"/>
+        <h4>{education.school}</h4>
         <p>{education.date}</p>
-        <p>{education.study}</p>
+        <p className="main-p">{education.study}</p>
       </div>
     )
   }
