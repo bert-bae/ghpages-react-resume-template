@@ -36,6 +36,7 @@ p {
   margin-block-end: 0.5rem;
   font-size: 14px;
   color: $fontColor;
+  line-height: 20px;
 }
 
 p.main-p {
@@ -69,7 +70,7 @@ div {
 
 .contact-info span {
   padding-left: 10px;
-  font-size: 18px;
+  font-size: 14px;
 }
 .contact-info small {
   margin-left: 15px;
@@ -86,5 +87,5 @@ div {
 }
 
 .skills p {
-  font-size:12px;
+  font-size:14px;
 }

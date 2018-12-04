@@ -7,9 +7,10 @@ class WorkExp extends React.Component {
     const roles = previousRoles.map((role) => {
       return (
         <div className="exp-bar">
-          <h4>{role.title}</h4><span class="date"><small><i>{role.date}</i></small></span>
+          <h4>{role.title}</h4>
           <div className="exp-footer">
             <p>{role.company}</p>
+            <p><small><i>{role.date}</i></small></p>
             <p><small><i>{role.address}</i></small></p>
           </div>
           <p className="main-p">{role.responsibilities}</p>
