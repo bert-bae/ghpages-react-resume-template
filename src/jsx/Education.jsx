@@ -7,7 +7,7 @@ class Education extends React.Component {
       <div className="exp-bar">
         <h3>Education</h3><hr className="hr-ed"/>
         <h4>{education.school}</h4>
-        <small><i><p>{education.date}</p></i></small>
+        <p><small><i>{education.date}</i></small></p>
         <p className="main-p">{education.study}</p>
       </div>
     )
