@@ -7,7 +7,7 @@ class Interests extends React.Component {
       return <li><p>{hobby}</p></li>;
     })
     return (
-      <div>
+      <div className={this.props.print + " web"}>
          <h3>Interests</h3>
           <ul>
             {myInterests}

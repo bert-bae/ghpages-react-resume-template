@@ -45,14 +45,7 @@ module.exports = {
       company: "YMCA of Greater Vancouver",
       address: "282 West 49th Avenue, Vancouver, BC",
       date: "February 2017 - October 2018",
-      responsibilities: "Tasked with the on-going improvement of member experience through training, data analysis, and community engagement with local businesses to improve retention and sales statistics. Growth of membership satisfaction rating from on average of 65-70% satisfaction rating to consistently reaching 85-90% by September 2018. Continued to work on a customized Excel spreadsheet to improve scheduling efficiency which included features that generates individually catered sales goals (based on number of hours and time of day scheduled) and budget tracking as monthly schedules are created."
-    },
-    {
-      title: "Team Leader",
-      company: "YMCA of Greater Vancouver",
-      address: "955 Burrard St, Vancouver, BC",
-      date: "June 2016 - February 2017",
-      responsibilities: "Responsible for the on-going training and development of the front-line team primarily around service, conflict resolution, and sales as well as resolve escalated member concerns. During this time, I developed two processes to handle the on-going review of the team's work with the customer database and sales calls to monitor proper data entry and work process. As a side project, created an Excel tool for the manager which generated line graphs of the scheduled shifts to easily identify gaps in scheduled hours or overscheduling."
+      responsibilities: "Tasked with the on-going improvement of member experience through training, data analysis, and community engagement with local businesses to improve retention and sales statistics. Growth of membership satisfaction rating from on average of 65-70% satisfaction rating to consistently reaching 85-90% by September 2018. Created a customized Excel spreadsheet to improve scheduling efficiency which included features that generates individually catered sales goals (based on number of hours and time of day scheduled), schedule templates, gaps in scheduled shifts, and budget tracking as monthly schedules are created."
     },
     {
       title: "Self-Employed as Service & Sales Trainer",

@@ -33,13 +33,15 @@ class Resume extends React.Component {
         <div className="side-bar">
           <PersonalInfo contactInfo={this.state.personalInfo}/>
           <Skills skills={this.state.skills}/>
+          <Education education={this.state.education} print={"print"}/>
+          <Interests interests={this.state.interests} print={"print"}/>
         </div>
         <div className="main-body">
           <Summary summary={this.state.summary}/>
           <WorkExp workexp={this.state.workexp}/>
           <Projects gitHubProjects={this.state.gitHubProjects}/>
           <Education education={this.state.education} />
-          <Interests interests={this.state.interests}/>
+          <Interests interests={this.state.interests} />
         </div>
       </div>
     )
