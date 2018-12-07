@@ -8,6 +8,13 @@ If you want to check-out what this actually looks like, check-out my own resume 
 
 Important to note that the instructions to uploading this react app to gh-pages is not mine and credit should go to the appropriate individual for their clear instructions at [Instructions](https://github.com/gitname/react-gh-pages).
 
+## Example
+
+[Example1]()
+[Example2]()
+[Example3]()
+[Example4]()
+
 ## How to use it
 
 1) Install the dependencies:  run =>  npm install
