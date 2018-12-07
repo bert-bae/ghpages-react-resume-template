@@ -4,7 +4,7 @@ class Interests extends React.Component {
   render() {
     const interests = this.props.interests.sort((a, b) => { return a > b});
     const myInterests = interests.map((hobby) => {
-      return <li><p>{hobby}</p></li>;
+      return <li key={this.props.random()}><p>{hobby}</p></li>;
     })
     return (
       <div className={this.props.print + " web"}>

@@ -6,7 +6,7 @@ class Skills extends React.Component {
     const otherSkills = this.props.skills.otherSkills.sort((a, b) => { return a > b}).join(", ");
 
     return (
-      <div class="skills">
+      <div className="skills" key={this.props.random()}>
         <h4>Tech Stack</h4>
           <p>{techSkills}</p>
         <h4>Other Skills</h4>

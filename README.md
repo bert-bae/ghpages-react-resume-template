@@ -1,4 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Instructions on how to work with react is at this link and further information is down below at the bottom of the ReadMe file for further information on how to work with it.
+
+# Online Resume Template (React Based)
+
+This online resume was rendered using React to make updating seperate components easy to manage and update as your progress as a developer changes over time. In saying so, using React _is not_ the most effective way and is likely (absolutely) overkill for something like this. However, in learning React, absolutely fell in love with its ease of use and simply had to practice its basic concepts!
+
+If you want to check-out what this actually looks like, check-out my own resume at [My CV](https://bert-bae.github.io/my-cv/). This template was created for you to utilize it for your own use.
+
+Important to note that the instructions to uploading this react app to gh-pages is not mine and credit should go to the appropriate individual for their clear instructions at [Instructions](https://github.com/gitname/react-gh-pages).
+
+## How to use it
+
+1) Install the dependencies:  run =>  npm install
+2) Run the server with the command =>  npm start
+3) Go to https://localhost:3000 (it may take some time for the developer environment to complete so be patient!)
+4) Go to the following file:
+  - Folder: 'src' => 'datainput.js'
+  - Update the appropriate sections with your own information. You can keep the local server running to see the changes updating as you update the data in this file.
+  - The projects section headers are links, so ensure that you are following the instructions for inputting links into the 'datainput.js' sections properly to ensure that the links are set correctly.
+5) Once you've fully updated your personal resume information, check it out!
+6) If you want to upload it online, GitPages is a simple way to do so:
+  - Create-react-app comes with a wonderful built-in method to build your code into a compiled format.
+  - Few steps you will need to complete by following the instructions here at this link (and thank you to this GitHub user for such a well documented and easy to follow instructions): [Instructions](https://github.com/gitname/react-gh-pages)
+  - Important: Go to the package.json file and ensure that you have all of the dependencies including "gh-pages": "^2.0.1".
+  - Update the "homepage" section >> "homepage": "https://[your github page link goes here]" >> add your github page link and update it (same instructions provided in the link).
+7) When you are ready, ensure these scripts are in the package.json:
+  - "predeploy": "npm run build"
+  - "deploy": "gh-pages -d build"
+8) Run "npm run deploy" >> After some time, you should be able to go to https://[githubname].github.io/[reponame] and see it live!
+
+## Styling
+
+Styling is completely done using SCSS located at 'src' => 'scss' => 'index.scss'.
+  - Go to the src => scss folder and run the following command in your terminal to automatically update your SCSS changes to your CSS file. You can edit the SCSS file to edit the styling to your liking.
+    - "sass --watch index.scss:../index.css"
+
+## Section layout
+
+If you want to adjust the section layout, it can be done so by moving the component sections in the "return(...)" area (marked with a comment in the file) in "src" => "index.jsx".
+
+
+
+SEE BELOW FOR CREATE-REACT-APP BOILER PLATE INSTRUCTIONS. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

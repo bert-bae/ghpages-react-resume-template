@@ -5,7 +5,7 @@ class Projects extends React.Component {
     const gitHubProjects = this.props.gitHubProjects;
     const projects = gitHubProjects.map((project) => {
       return (
-        <div className="exp-bar">
+        <div className="exp-bar" key={this.props.random()}>
           <a href={project.link}><h4>{project.title}</h4></a>
           <div className="exp-footer">
             <p><small><i>{project.date}</i></small></p>

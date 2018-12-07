@@ -6,7 +6,7 @@ class WorkExp extends React.Component {
     
     const roles = previousRoles.map((role) => {
       return (
-        <div className="exp-bar">
+        <div className="exp-bar" key={this.props.random()}>
           <h4>{role.title}</h4>
           <div className="exp-footer">
             <p>{role.company}</p>
