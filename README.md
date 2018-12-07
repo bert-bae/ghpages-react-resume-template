@@ -10,10 +10,10 @@ Important to note that the instructions to uploading this react app to gh-pages 
 
 ## Example
 
-[Example1](https://github.com/bert-bae/ghpages-react-resume-template/blob/master/src/img/ex1.png)
-[Example2](https://github.com/bert-bae/ghpages-react-resume-template/blob/master/src/img/ex2.png)
-[Example3](https://github.com/bert-bae/ghpages-react-resume-template/blob/master/src/img/ex3.png)
-[Example4](https://github.com/bert-bae/ghpages-react-resume-template/blob/master/src/img/ex4.png)
+![Example1](https://github.com/bert-bae/ghpages-react-resume-template/blob/master/src/img/ex1.png)
+![Example2](https://github.com/bert-bae/ghpages-react-resume-template/blob/master/src/img/ex2.png)
+![Example3](https://github.com/bert-bae/ghpages-react-resume-template/blob/master/src/img/ex3.png)
+![Example4](https://github.com/bert-bae/ghpages-react-resume-template/blob/master/src/img/ex4.png)
 
 ## How to use it
 
