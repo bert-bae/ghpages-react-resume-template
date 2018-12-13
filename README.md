@@ -41,6 +41,8 @@ Styling is completely done using SCSS located at 'src' => 'scss' => 'index.scss'
   - Go to the src => scss folder and run the following command in your terminal to automatically update your SCSS changes to your CSS file. You can edit the SCSS file to edit the styling to your liking.
     - "sass --watch index.scss:../index.css"
 
+TODO > Mobile styling needs to be finalized
+
 ## Section layout
 
 If you want to adjust the section layout, it can be done so by moving the component sections in the "return(...)" area (marked with a comment in the file) in "src" => "index.jsx".
